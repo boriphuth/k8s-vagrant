@@ -11,7 +11,10 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 ```
 
 ## Issue Vagrant up - VBoxManage.exe error: VT-x is not available (VERR_VMX_NO_VMX) code E_FAIL (0x80004005) gui headless
-## https://stackoverflow.com/questions/37955942/vagrant-up-vboxmanage-exe-error-vt-x-is-not-available-verr-vmx-no-vmx-code
+```bash
+https://stackoverflow.com/questions/37955942/vagrant-up-vboxmanage-exe-error-vt-x-is-not-available-verr-vmx-no-vmx-code
+```
+
 To turn Hypervisor off, run this from Command Prompt (Admin) (Windows+X):
 ```bash
 bcdedit /set hypervisorlaunchtype off
